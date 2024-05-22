@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_3"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/locate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:background="@color/cardview_shadow_end_color"
+        android:src="@drawable/location"/>
+
+    <ImageButton
+        android:id="@+id/question"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:layout_marginLeft="305dp"
+        android:scaleType="fitXY"
+        android:background="@color/cardview_shadow_end_color"
+        android:src="@drawable/ques" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
